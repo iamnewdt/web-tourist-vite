@@ -1,0 +1,35 @@
+* {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #333;
+  padding: 2rem;
+  text-align: left;
+  color: #fff;
+}
+header p {
+  background: #333;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+footer {
+  background: #333;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+  
+}
+
+main {
+  padding: 1rem;
+}
+
+main h3 {
+  padding: 1rem;
+  text-align: left;
+}
