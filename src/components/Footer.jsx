@@ -6,7 +6,6 @@ function Footer() {
     <p>Copyright 2024</p>
    </footer>
         
-   
   )
 }
 
