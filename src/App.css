@@ -18,13 +18,70 @@ header p {
   color: #fff;
 }
 
-/*Main footer*/*
+/* Main footer styles */
 footer {
   background: #333;
-  padding: 2rem;
+  color: #fff;
+  padding: 2rem 1rem;
   text-align: center;
-  color: #fff;  
 }
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  margin-bottom: 1.5rem;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-menu li {
+  display: inline;
+}
+
+.footer-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-menu a:hover {
+  color: #f0a500;
+}
+
+.footer-social {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #f0a500;
+}
+
 
 /* Main Content */
 main {
