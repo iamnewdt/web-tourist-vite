@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className='App'>
+      <Header />
       <Nav />
       <Content />
       <Footer />
