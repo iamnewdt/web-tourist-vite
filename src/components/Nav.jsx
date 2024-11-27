@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';  // นำเข้า Link จาก react-router-dom
 
 function Nav() {
   return (
@@ -9,10 +10,10 @@ function Nav() {
         <button type="submit">🔍</button>
       </div>
       <div className="nav-links">
-        <a className="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <Link className="active" to="/Home">Home</Link>  {/* ใช้ Link แทน a */}
+        <Link to="/News">News</Link>  {/* ใช้ Link แทน a */}
+        <Link to="/Contact">Contact</Link>  {/* ใช้ Link แทน a */}
+        <Link to="/About">About</Link>  {/* ใช้ Link แทน a */}
       </div>
     </div>
   );

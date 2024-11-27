@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Content() {
+function About() {
   return (
     <main>
       <h3>About Thailand</h3>
@@ -81,4 +81,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default About;

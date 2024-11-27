@@ -94,7 +94,7 @@ footer {
 }
 
 
-/* Main Content */
+/* Main About */
 main {
   padding: 2rem;
   font-family: 'Arial', sans-serif;
@@ -138,15 +138,19 @@ main ul li strong {
   color: #04AA6D;
 }
 
-
 /* Navigation Bar */
 .topnav {
+  position: sticky; /* ทำให้แถบติดด้านบน */
+  top: 0; /* กำหนดตำแหน่งที่ด้านบน */
   background-color: #333;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 16px;
   height: 60px;
+  width: 100%; /* ขยายแถบให้เต็มหน้าจอ */
+  z-index: 1000; /* อยู่ด้านหน้าของคอนเทนต์อื่น */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเพื่อแยกแถบออกจากเนื้อหา */
 }
 
 /* Style the logo */
@@ -158,17 +162,16 @@ main ul li strong {
 }
 
 /* Style the navigation links */
+.nav-links {
+  display: flex;
+}
+
 .nav-links a {
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-}
-
-/* Align the links to the right */
-.nav-links {
-  display: flex;
 }
 
 /* Change the color of links on hover */
@@ -185,13 +188,12 @@ main ul li strong {
 
 /* Style the search container */
 .search-container {
-  flex: 1; /* Allow search bar to expand in the center */
+  flex: 1; /* Center the search bar */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Style the input field */
 .search-container input {
   padding: 6px;
   border: none;
@@ -202,7 +204,6 @@ main ul li strong {
   margin-right: 4px;
 }
 
-/* Style the search button */
 .search-container button {
   background-color: #04AA6D;
   color: white;
