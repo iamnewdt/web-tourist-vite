@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="footer-container">
         <div className="footer-content">
-          <p>&copy; 2024 Your Company. All rights reserved.</p>
+          <p>&copy; 2024 Iamnewdt. All rights reserved.</p>
           <ul className="footer-menu">
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>

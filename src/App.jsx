@@ -19,7 +19,7 @@ export default function App() {
         {/* Common layout components */}
         <Header />
         <Nav />
-
+        
         {/* Routing setup */}
         <Routes>
           <Route path="Home" element={<Home />} />
