@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
@@ -9,26 +8,21 @@ import News from './page/News';
 import Contact from './page/Contact';
 import About from './page/About'
 
-// Combine both functions into one App function
+/* Combine both functions into one App function*/
 export default function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <BrowserRouter>
-      <div className='App'>
-        {/* Common layout components */}
+      <div className="App">
         <Header />
         <Nav />
-        
-        {/* Routing setup */}
-        <Routes>
-          <Route path="Home" element={<Home />} />
-          <Route path="News" element={<News />} />
-          <Route path="Contact" element={<Contact />} />
-          <Route path="About" element={<About />} />
-        </Routes>
-
-        {/* Footer is displayed on all routes */}
+        <main>
+          <Routes>
+            <Route path="Home" element={<Home />} />
+            <Route path="News" element={<News />} />
+            <Route path="Contact" element={<Contact />} />
+            <Route path="About" element={<About />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </BrowserRouter>

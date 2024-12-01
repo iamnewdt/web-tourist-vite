@@ -93,6 +93,18 @@ footer {
   color: #f0a500;
 }
 
+/* Add on freeze footer */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* add just height viewport */
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f9f9f9; /* Add space main content */
+}
 
 /* Main About */
 main {
@@ -276,4 +288,57 @@ main ul li strong {
   border-left: 4px solid #0056b3;
   padding-left: 15px;
   margin: 20px 0;
+}
+
+/* Contact.css */
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-container label {
+  font-weight: bold;
+}
+
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-container button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact-container button:hover {
+  background-color: #0056b3;
+}
+
+.contact-container .status {
+  margin-top: 15px;
+  font-size: 1.1rem;
 }
