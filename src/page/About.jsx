@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <main>
+    <div className="about-container">
       <h3>About Thailand</h3>
       <p>
         Thailand is a Southeast Asian country known for its rich culture, diverse landscapes, and warm hospitality. Here’s an overview of key aspects of Thailand:
@@ -77,7 +77,7 @@ function About() {
           Thailand combines modernity and tradition, making it a fascinating place to visit or live. Domestic travel is well-connected by trains, buses, and flights. In cities like Bangkok, electric trains (BTS and MRT) are convenient options for getting around.
         </p>
       </section>
-    </main>
+    </div>
   );
 }
 
